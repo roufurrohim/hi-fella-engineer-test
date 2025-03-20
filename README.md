@@ -30,11 +30,11 @@
 
 1. Clone the repo
    ```sh
-   git clone https://github.com/roufurrohim/hifella-test
+   git clone https://github.com/roufurrohim/hi-fella-engineer-test.git
    ```
 2. Inside the project directory
    ```sh
-   cd hifella-test
+   cd hi-fella-engineer-test
    ```
 3. Install Bun packages
    ```sh
