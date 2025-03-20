@@ -1,0 +1,47 @@
+<div id="top"></div>
+<!-- PROJECT LOGO -->
+<br />
+<div align="center">
+  <a href="https://zwallet-ten.vercel.app/">
+    <img src="./public/logo.png" alt="Logo" width="120" height="70">
+  </a>
+
+  <h3 align="center">Hi Fella</h3>
+</div>
+
+### Built With
+
+* [Next.js](https://nextjs.org/)
+* [Tailwind CSS](https://tailwindcss.com/)
+* [SCSS](https://sass-lang.com/)
+
+
+<!-- GETTING STARTED -->
+## Getting Started
+
+### Prerequisites
+
+* bun
+  ```sh
+  bun install
+  ```
+
+### Installation
+
+1. Clone the repo
+   ```sh
+   git clone https://github.com/roufurrohim/hifella-test
+   ```
+2. Inside the project directory
+   ```sh
+   cd hifella-test
+   ```
+3. Install Bun packages
+   ```sh
+   bun install
+   ```
+4. Run development server
+   ```sh
+   bun run dev
+   ```
+5. Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
