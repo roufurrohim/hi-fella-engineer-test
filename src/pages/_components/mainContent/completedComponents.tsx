@@ -44,6 +44,10 @@ export default function CompletedComponents() {
 
     const [sumChecked, setSumChecked] = useState(0);
 
+    /**
+     * Handle checkbox change
+     * @param value - The value of the checkbox
+     */
     const handleCheckbox = (value: number) => {
         setSumChecked(value);
     };
