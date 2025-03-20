@@ -84,11 +84,11 @@ export default function RightContent() {
             </div>
             <div className="flex flex-col gap-[3px]">
               <h3 className="text-base font-medium">{user.name}</h3>
-              <div className="w-fit px-[11px] flex justify-center items-center bg-[#ACF5BE] rounded-full">
-                <span className="text-xs text-[#259340]">{user.title}</span>
+              <div className="w-fit px-[11px] flex justify-center items-center bg-background-400 rounded-full">
+                <span className="text-xs text-accent-400">{user.title}</span>
               </div>
-              <p className="text-xs text-[#808080]">{user.company}</p>
-              <button className="w-[118px] border border-[#008FFF] text-[#008FFF] py-[10px] rounded-full flex justify-center items-center font-bold text-xs cursor-pointer">{user.status}</button>
+              <p className="text-xs text-accent-300">{user.company}</p>
+              <button className="w-[118px] border border-primary text-primary py-[10px] rounded-full flex justify-center items-center font-bold text-xs cursor-pointer">{user.status}</button>
             </div>
           </div>
         ))}
@@ -97,16 +97,16 @@ export default function RightContent() {
       <div className="w-[288px] flex flex-col gap-[15px]">
         <div className="w-full flex flex-wrap gap-x-[20px] gap-y-[5px]">
           {footer.map((item, index) => (
-            <a key={index} href={item.links} className="text-[#808080] text-xs">{item.title}</a>
+            <a key={index} href={item.links} className="text-accent-300 text-xs">{item.title}</a>
           ))}
           <button
             className="flex items-center gap-[3px] bg-transparent !border-0 hover:bg-gray-50 hover:text-gray-700 "
           >
-            <span className="text-[#808080] text-xs">More</span>
+            <span className="text-accent-300 text-xs">More</span>
             <ChevronDownIcon2 />
           </button>
         </div>
-        <span className="text-[#808080] text-xs">© Hifella 2023. All Rights Reserved</span>
+        <span className="text-accent-300 text-xs">© Hifella 2023. All Rights Reserved</span>
       </div>
 
     </section>

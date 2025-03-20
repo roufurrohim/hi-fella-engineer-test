@@ -98,7 +98,7 @@ export default function ProductComponents() {
                         <StarIcon2 />
                         <div className="flex flex-col">
                             <h2 className="text-sm font-semibold">Featured Products</h2>
-                            <p className="text-xs text-[#808080]">Ads</p>
+                            <p className="text-xs text-accent-300">Ads</p>
                         </div>
                     </div>
                     <div className="w-1/3 flex items-center gap-[5px] cursor-pointer">
@@ -123,12 +123,12 @@ export default function ProductComponents() {
                                     alt="company"
                                     width={30}
                                     height={30}
-                                    className="w-[30px] h-[30px] !rounded-full border border-[#F1F4F5]"
+                                    className="w-[30px] h-[30px] !rounded-full border border--border-200"
                                     priority
                                 />
                                 <div className="flex flex-col min-w-0">
                                     <div className="flex gap-[3px] items-center">
-                                        <h3 className="text-sm text-[#808080]">{item.title}</h3>
+                                        <h3 className="text-sm text-accent-300">{item.title}</h3>
                                         {item.verified && (
                                             <Image
                                                 src="/verified.svg"
@@ -140,16 +140,16 @@ export default function ProductComponents() {
                                             />
                                         )}
                                     </div>
-                                    <h3 className="text-base text-[#323232] font-semibold !truncate">{item.sector}</h3>
-                                    <div className="flex items-center justify-start gap-[2px] text-xs text-[#808080]">
+                                    <h3 className="text-base font-semibold !truncate">{item.sector}</h3>
+                                    <div className="flex items-center justify-start gap-[2px] text-xs text-accent-300">
                                         <p>Category: </p>
                                         <p className="capitalize">{item.category}</p>
                                     </div>
-                                    <div className="flex items-center justify-start gap-[2px] text-xs text-[#808080]">
+                                    <div className="flex items-center justify-start gap-[2px] text-xs text-accent-300">
                                         <p>Price: </p>
                                         <p>{item.price}</p>
                                     </div>
-                                    <div className="flex items-center justify-start gap-[2px] text-xs text-[#808080]">
+                                    <div className="flex items-center justify-start gap-[2px] text-xs text-accent-300">
                                         <p>MOQ: </p>
                                         <p>{item.moq}</p>
                                     </div>

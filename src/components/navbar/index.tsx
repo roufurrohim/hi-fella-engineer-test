@@ -4,7 +4,7 @@ import Dropdown from "../dropdowns";
 
 export default function Navbar() {
   return (
-    <nav className="w-full py-[18px] flex justify-center items-center bg-white border-b border-[#D9D9D9]">
+    <nav className="w-full py-[18px] flex justify-center items-center bg-white border-b border-border">
     <section className="w-full max-w-[1280px] grid grid-cols-8 justify-between items-center">
       <div className="col-span-2">
         <Image
@@ -17,7 +17,7 @@ export default function Navbar() {
         />
       </div>
       <div className="col-span-4">
-        <div className="w-full flex items-center gap-[10px] py-[10.5px] px-5 bg-[#F0F3F4] rounded-full">
+        <div className="w-full flex items-center gap-[10px] py-[10.5px] px-5 bg-background-100 rounded-full">
           <SearchIcon />
           <input type="text" placeholder="Search profile, company or product" className="w-full bg-transparent focus:outline-none text-black" />
         </div>

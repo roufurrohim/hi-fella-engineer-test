@@ -61,7 +61,7 @@ export default function CompletedComponents() {
                 <p className="text-xs">0/4 Completed</p>
             </div>
             {listCompleted.map((item) => (
-                <div key={item.id} className="relative w-full flex items-center gap-2 p-[10px] border border-[#D9D9D9] rounded-[10px]">
+                <div key={item.id} className="relative w-full flex items-center gap-2 p-[10px] border border-border rounded-[10px]">
                     <Checkbox onChange={(e) => {
                         if (e.target.checked) {
                             handleCheckbox(sumChecked + 25);

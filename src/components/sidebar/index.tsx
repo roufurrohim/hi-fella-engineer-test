@@ -81,13 +81,13 @@ export default function Sidebar() {
   return (
     <section className="w-full flex flex-col gap-[10px]">
         {sidebarList.map((item) => (
-            <Link key={item.id} href={item.url} className={`w-full max-w-[221px] flex items-center gap-[22px] text-md px-7 py-[11px] cursor-pointer ${pathname === item.url ? "text-[#008FFF] font-bold bg-[#E2ECF6] rounded-full" : "font-normal"}`}>
+            <Link key={item.id} href={item.url} className={`w-full max-w-[221px] flex items-center gap-[22px] text-md px-7 py-[11px] cursor-pointer ${pathname === item.url ? "text-primary font-bold bg-background-200 rounded-full" : "font-normal"}`}>
                 <div className="w-fit flex items-center gap-3">
                     {item.icon}
                 </div>
                 <div className="w-fit flex items-center gap-3">
                     {item.title}
-                    {item.is_new && <div className="px-[10px] py-1 bg-[#008FFF] rounded-full text-[10px] text-white font-semibold flex justify-center items-center">NEW!</div>}
+                    {item.is_new && <div className="px-[10px] py-1 bg-primary rounded-full text-[10px] text-white font-semibold flex justify-center items-center">NEW!</div>}
                 </div>
             </Link>
         ))}

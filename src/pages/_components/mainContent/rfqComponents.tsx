@@ -16,15 +16,15 @@ export default function RFQComponents() {
         </div>
 
         {Array.from({ length: 2 }).map((_, index) => (
-            <div key={index} className="w-full flex flex-col gap-[24px] divide-y divide-[#F1F4F5] bg-white rounded-[10px] shadow-[0px_0px_20px_0px_#0000000D]">
+            <div key={index} className="w-full flex flex-col gap-[24px] divide-y divide--border-200 bg-white rounded-[10px] shadow-[0px_0px_20px_0px_#0000000D]">
                 <div className="w-full flex items-center justify-between p-[21px]">
                     <div className="flex flex-col gap-[10px]">
                         <h2 className="text-[20px] font-semibold">[company name] is looking for [product scope] Product</h2>
                         <div className="flex items-center gap-[5px]">
-                            <div className="flex items-center gap-[5px] justify-center px-[10px] py-[3px] bg-[#F1F4F5] rounded-[5px]">
+                            <div className="flex items-center gap-[5px] justify-center px-[10px] py-[3px] bg--border-200 rounded-[5px]">
                                 <span className="text-[10px] font-medium">coffee</span>
                             </div>
-                            <div className="flex items-center gap-[5px] justify-center px-[10px] py-[3px] bg-[#F1F4F5] rounded-[5px]">
+                            <div className="flex items-center gap-[5px] justify-center px-[10px] py-[3px] bg--border-200 rounded-[5px]">
                                 <span className="text-[10px] font-medium">Verified Company</span>
                                 <Image
                                     src="/verified.svg"
@@ -40,7 +40,7 @@ export default function RFQComponents() {
                     <ChevronRightIcon color="#808080" />
                 </div>
                 <div className="w-full flex flex-col gap-[5px] px-[21px] pb-[21px]">
-                    <p className="text-[10px] text-[#808080]">Who&apos;s looking this product</p>
+                    <p className="text-[10px] text-accent-300">Who&apos;s looking this product</p>
                     <div className="w-full flex gap-[10px] items-center">
                         <div className="w-[45px] h-[45px]">
                             <Image
@@ -54,10 +54,10 @@ export default function RFQComponents() {
                         </div>
                         <div className="flex flex-col gap-[3px]">
                             <h3 className="text-xs font-medium">John Doe</h3>
-                            <div className="w-fit px-[11px] flex justify-center items-center bg-[#ACF5BE] rounded-full">
-                                <span className="text-xs text-[#259340]">Customer Acquisition </span>
+                            <div className="w-fit px-[11px] flex justify-center items-center bg-background-400 rounded-full">
+                                <span className="text-xs text-accent-400">Customer Acquisition </span>
                             </div>
-                            <p className="text-sm text-[#808080]">Digital Marketing at PT ABC Indonesia - 2m</p>
+                            <p className="text-sm text-accent-300">Digital Marketing at PT ABC Indonesia - 2m</p>
                         </div>
                     </div>
                 </div>
