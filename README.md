@@ -11,9 +11,9 @@
 
 ### Built With
 
-* [Next.js](https://nextjs.org/)
-* [Tailwind CSS](https://tailwindcss.com/)
-* [SCSS](https://sass-lang.com/)
+* [Next.js 15.2.3](https://nextjs.org/)
+* [Tailwind CSS 4.0.0](https://tailwindcss.com/)
+* [SCSS 1.3.0](https://sass-lang.com/)
 
 
 <!-- GETTING STARTED -->
