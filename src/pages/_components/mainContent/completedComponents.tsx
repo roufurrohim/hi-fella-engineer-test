@@ -58,7 +58,7 @@ export default function CompletedComponents() {
             <div className="w-full flex flex-col gap-[4px]">
                 <p className="text-sm">Tap into the power of Hi-Fella’s Discover Page. Showcase your products to a highly engaged international audience and unlock new growth opportunities!</p>
                 <ProgressBar percentage={sumChecked} height={5} />
-                <p className="text-xs">0/4 Completed</p>
+                <p className="text-xs">{sumChecked/25}/4 Completed</p>
             </div>
             {listCompleted.map((item) => (
                 <div key={item.id} className="relative w-full flex items-center gap-2 p-[10px] border border-border rounded-[10px]">
